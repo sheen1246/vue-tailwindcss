@@ -12,7 +12,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VUE_TAILWIND_WORKCATION }}'
-          projectId: vue-tailwind-workcation
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VUE_TAILWINDCSS }}'
+          projectId: vue-tailwindcss
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
